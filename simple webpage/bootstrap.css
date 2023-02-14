@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-fluid{
+  padding: 50px 50px;
+}
+.container-fluid h4,p,.btn1{
+  margin-left: 50px;
+}
+.img-fluid{
+  margin-left: 100px;
+ width: 190px;
+}
+.cl3,.cl4,.cl5{
+  text-align: center;
+  margin: 20px 0px;
+}
+.ff3,.ff4,.ff5{
+  margin-left: 50px;
+}
+.fl3,.fl4,.fl5,.fl6{
+  text-align: center;
+}
+.dg1{
+  height: 500px;
+  width: 200px;
+  border-radius: 100px;
+  margin-right: 100px;
+}
+.marq{
+  background-color: #0dcaf0;
+}
+.ht{
+  /* width: 100px; */
+}
+.cl6{
+  text-align: center;
+}
+.cl6>article>h5{
+  color: gray;
+}
+.cl6>footer>h4{
+  margin: auto;
+}
+.cl6>footer>h4:hover{
+  background-color: black;
+  color: white;
+  transition: linear 0.5s;
+}
+.fl6>p{
+  margin: auto;
+  color: gray;
+}
+.walk{
+  width: 100%;
+  height: 650px;
+  position: sticky;
+}
+.ff0:hover{
+  transform: scale(1.5);
+  transition: 0.5s linear;
+}
+footer{
+  cursor: pointer;
+}
+header{
+  margin-top: 15px;
+}
+@media only screen and (max-width:948px){
+   .btn2{
+    margin-left: 18%; 
+    /* width: 100%; */
+}
+}
+@media only screen and (max-width: 620px) {
+.btn2,.btn1{
+    margin-left: 0%; 
+    width: 100%;
+}
+.cl2{
+  text-align: center;   
+}
+.img-fluid{
+  margin-left: 0px;
+}
+.cl3,.cl4,.cl5{
+  text-align: justify;
+}
+.dg1,.dgp1,.dgp2{
+  margin: auto;
+}
+.cl6{
+  text-align: center;
+  margin: auto;  
+}
+}
